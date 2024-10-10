@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+
+
+h1{
+    /* font-family: "Baloo Paaji 2", sans-serif; */
+    font-family: "Satisfy", cursive;
+    text-decoration:line-through ;
+    letter-spacing: 1px;
+    margin:auto ;
+    text-shadow: 0px 7px 8px rgb(255, 0, 0);
+    
+}
+
+p{
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    /* font-family: "Satisfy", cursive; */
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.box1 > h1{
+    color: rgb(100, 150, 130, 0.6);
+}
+.box1 > h2{
+    color: rgba(30 150 220 / 60% );
+    color: hsl(235, 100%, 50%)
+}
+.box2{
+    background-image: url('demo.gif');
+    margin: 320px auto;
+    padding: 55px;
+    width: 200px;
+    border: 2px solid rgb(3, 67, 72, 1.0);
+    border-style: dotted;
+    border-width: 2px;
+    flex-wrap: wrap;
+}
+
+gif {
+    opacity: 0.5;
+  }
+  
+  gif:hover {
+    opacity: 1.0;
+  }

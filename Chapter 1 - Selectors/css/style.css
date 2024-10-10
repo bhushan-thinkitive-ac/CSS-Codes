@@ -1,0 +1,52 @@
+/* Element Selector */
+/* div {
+    color: teal; 
+} */
+
+/* Class Selector */
+.red {
+    background-color: red; /* Corrected quotes */
+}
+
+/* Id Selector */
+#green {
+    background-color: green; /* Corrected quotes */
+}
+
+/* Child Selector */
+div > p {
+    background-color: rgb(100, 8, 158);
+    color: yellow;
+}
+
+/* Descendant Selector */
+div p {
+    background-color: rgb(100, 8, 158);
+    color: yellow;
+}
+
+/* Universal Selector */
+* {
+    margin: 0; /* Removed units for consistency */
+    padding: 1px; /* Be mindful of padding impact */
+}
+
+/* Pseudo Selector */
+
+a:active{
+    background-color: red;
+}
+a:visited {
+    color: yellow;
+}
+a:hover{
+    color: white;
+    background-color: red;
+}
+
+a:link{
+    color: brown;
+}
+h1:first-child{
+    background-color: blue;
+}

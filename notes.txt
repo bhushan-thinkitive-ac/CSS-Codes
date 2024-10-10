@@ -1,0 +1,27 @@
+Selectors: 
+    1] Element Selector, Class Selector, Id Selector, Child Selector, Descendant Selector, Universal Selector
+    2] Pseudo Selector: :visited, :hover, :link, :first_child
+Box Model:
+    1] Margin, Padding on specific box as well as on universal box.
+    2] Border, background-color, box sizing, border box
+    3] height, width, margin collapse
+Fonts, Text, Colors:
+    1] Fonts: arial, times new roman, vrdana, etc. Fallback fonts.
+    2] Fonts properties: font-style, font-weight, font-display, etc.
+    3] Google fonts: Importing, adding link 
+    4] Text properties: text-align, text-transform, text-overflow, etc.
+    5] Text shadow, line-height, letter-spacing
+    6] Colors: RGB, RGBA, HEX, HSL, HUE, Lightness, Saturation
+Specificity & Cascade:
+    1] Position and order of appearance: the order in which your CSS rules appear
+    2] Specificity: an algorithm that determines which CSS selector has the strongest match
+    3] Origin:the order in which CSS appears and where it comes from, whether that is a browser style, CSS from a browser extension, or your authored CSS
+    4] Importance: some CSS rules are weighted more heavily than others, especially with the !important rule.
+    5] Order of specificity is: Inline Style > ID Selector > Class or Attribute Selector > Element Selector > Universal Selector
+Properties:
+    1] Display Property: inline-block, visibility, flex, grid 
+    2] Shadows: h-offset, v-offset, blur, spread, color, inset
+    3] Outline: outline-offset, width, style, color, difference b/w border and outline.
+    4] List: list-style, list-style-type, list-style-position, list-style-image
+    5] Overflow: scroll, white-space, hidden, clip, overflow-x, overflow-y
+    6] Position: static, absolute, relative, fixed, sticky, z-index
