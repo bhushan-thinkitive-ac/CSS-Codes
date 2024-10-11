@@ -25,3 +25,12 @@ Properties:
     4] List: list-style, list-style-type, list-style-position, list-style-image
     5] Overflow: scroll, white-space, hidden, clip, overflow-x, overflow-y
     6] Position: static, absolute, relative, fixed, sticky, z-index
+FlexBox:
+    1] display: flex, justify-content, align-items, aligh-content
+    2] Flex-direction: column, column-reverse
+    3] Flex-wrap: wrap, wrap-reverse, no-wrap
+    4] Flex-Axis: Main Axis, Cros Axis
+GRID:
+    1] display: grid, 
+    2] Grid-template-columns, grid-template-rows, grid-template-areas
+    3] Grid line, Grid Cell, Grid Track, Grid Area
